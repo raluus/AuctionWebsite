@@ -1,0 +1,171 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+     font-family: Verdana, Tahoma, sans-serif;
+ }
+ 
+ #header {
+     background-color: rgb(9, 6, 32);
+     height: 50px;
+     padding-left: 30px;
+     padding-top: 10px;
+     width: 860px;
+ }
+ 
+ #footer {
+     text-align: center;
+     background-color: rgb(9, 6, 32);
+     color: white;
+     height: 50px;
+     margin-top: 100px;
+ }
+ 
+ #container {
+     width: 1450px;
+     height: 670px;
+     display: flex;
+     margin: -10px auto 5px auto;
+ }
+ 
+ #header h1 {
+     color: white;
+     width: 690px;
+     font-size: 30px;
+ }
+ 
+ #wrapper {
+     display: flex;
+ }
+ 
+ #mymenu {
+     overflow: hidden;
+     padding-left: 190px;
+     background-color: rgb(9, 6, 32);
+     width: 620px;
+     height: 60px;
+ }
+ 
+ #mymenu a:active {
+     background-color: aqua;
+     color: white;
+ }
+ 
+ #mymenu a {
+     float: left;
+     text-align: center;
+     padding: 24px 16px;
+     text-decoration: none;
+     font-size: 11px;
+     color: white;
+ }
+ 
+ #mymenu a:hover {
+     background-color: rgba(255, 245, 238, 0.199);
+     color: rgb(7, 241, 26);
+ }
+ 
+ html {
+     background: url(Imagini/blurbackhd.jpg) no-repeat center center fixed;
+     background-size: cover;
+ }
+ 
+ #auctions {
+     margin: 5px auto;
+ }
+ 
+ #auctions h2 {
+     text-align: center;
+     color: white;
+     text-shadow: 4px 4px 4px rgb(117, 225, 252);
+     font-family: monospace;
+     font-size: 35px;
+     padding-left: 35px;
+     margin-top: 60px;
+     margin-bottom: 45px;
+ }
+ 
+ div.collection p {
+     color: white;
+ }
+ 
+ div.collection {
+     margin: 50px;
+     border: 1px solid #ccc;
+     display: flex;
+     width: 850px;
+     margin-left: 30px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ 
+ div.collection:hover {
+     border: 1px solid rgb(5, 5, 5);
+ }
+ 
+ div.collection img {
+     width: 100%;
+     height: 100%;
+     border-bottom-left-radius: 10px;
+     border-top-left-radius: 10px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ 
+ div.left-column {
+     width: 400px;
+ }
+ 
+ .collection label {
+     color: white;
+     font-weight: bold;
+ }
+ 
+ div.desc {
+     width: 100%;
+     background-color: transparent;
+     color: rgb(0, 0, 0);
+     border-bottom-right-radius: 10px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ 
+ input[type=submit] {
+     width: 50%;
+     background-color: #fbff00;
+     color: rgb(0, 0, 0);
+     padding: 14px 20px;
+     margin: 8px 95px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+ 
+ input[type=submit]:hover {
+     background-color: #00fd0d;
+ }
+ 
+ input[type=text],
+ select {
+     width: 50%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     border: 1px solid rgb(157, 245, 145);
+     border-radius: 4px;
+     box-sizing: border-box;
+ }
+ 
+ #go-back {
+     margin-top: 250px;
+ }
+ 
+ #go-back a {
+     float: left;
+     text-align: center;
+     padding: 24px 16px;
+     text-decoration: none;
+     font-size: 25px;
+     color: white;
+ }
+ 
+ #go-back a:hover {
+     background-color: rgba(255, 245, 238, 0.199);
+     color: rgb(7, 241, 26);
+ }

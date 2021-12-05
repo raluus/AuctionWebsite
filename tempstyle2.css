@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+#header {
+    background-color: rgb(9, 6, 32);
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 860px;
+}
+
+#footer {
+    text-align: center;
+    background-color: rgb(9, 6, 32);
+    color: white;
+    height: 50px;
+    margin-top: 100px;
+}
+
+#container {
+    width: 1450px;
+    height: 670px;
+    display: flex;
+    margin: -10px auto 5px auto;
+}
+
+#header h1 {
+    color: white;
+    width: 690px;
+    font-size: 30px;
+}
+
+#wrapper {
+    display: flex;
+}
+
+#mymenu {
+    overflow: hidden;
+    padding-left: 190px;
+    background-color: rgb(9, 6, 32);
+    width: 620px;
+    height: 60px;
+}
+
+#mymenu a:active {
+    background-color: aqua;
+    color: white;
+}
+
+#mymenu a {
+    float: left;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+#mymenu a:hover {
+    background-color: rgba(255, 245, 238, 0.199);
+    color: rgb(7, 241, 26);
+}
+
+#main-column {
+    margin: 50px auto;
+    display: flex;
+}
+
+#main-column h2 {
+    text-align: left;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(157, 245, 145);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(157, 245, 145);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #00fd0d;
+}
+
+#right-column {
+    display: inline-block;
+    margin: 50px auto;
+}
+
+#right-column div {
+    border-radius: 5px;
+    background-color: #d3a9a91a;
+    padding: 20px;
+}
+
+#right-column h2 {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: black;
+}
+
+#right-column label {
+    color: white;
+}
+
+#right-column span {
+    color: white;
+}
+
+#final {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#final a {
+    background-color: rgba(87, 74, 65, 0.712);
+    text-decoration: none;
+    color: white;
+}
+
+#final a:hover {
+    background-color: rgba(31, 26, 22, 0.884);
+    color: rgb(0, 255, 0);
+}
+
+html {
+    background: url(Imagini/blurbackhd.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
